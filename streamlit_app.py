@@ -55,13 +55,13 @@ if section == "🏁 Introduction":
 
     ### 🔍 What This Dashboard Covers
 
-    - 📅 **Temporal Trends** – How have incidents and their severity changed over time?
+    - 📅 **Yearly Trends** – How have incidents and their severity changed over time?
     - 🌍 **Geographic Hotspots** – Which countries and regions are most dangerous?
     - ⚔️ **Attack Characteristics** – What types of attacks are most common, and where do they occur?
     - 🧍‍♀️ **Victim Profiles** – Who are the victims: national vs. international staff?
     - 🧨 **Perpetrator Analysis** – Who are the perpetrators and how does their behavior vary?
     - 📅 **Time & Cross Patterns** – Explore monthly/quarterly trends and country × method × severity patterns.
-    - 📌 **Recommendations** – Actionable strategies based on data insights.
+    - 📌 **Conclusion & Recommendations** – Actionable strategies based on data insights.
 
     ---
 
