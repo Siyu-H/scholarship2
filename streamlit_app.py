@@ -70,7 +70,7 @@ if section == "🏁 Introduction":
     - **Total Records:** 4,337 incidents  
     - **Time Span:** 1997 – 2025  
     - **Columns Include:** Country, Region, Actor Type, Victim Info, Gender, Attack Method, Location, Severity  
-    - **Source:** [Aid Worker Security Database](https://aidworkersecurity.org)
+    - **Source:** [Aid Worker Security Database](https://aidworkersecurity.org)[^1]
 
     This rare and comprehensive dataset offers a critical lens into the challenges faced by aid workers worldwide.
 
@@ -759,7 +759,7 @@ elif section == "🧍‍♂️ Victim Profiles":
             """
             - In every harm category, **national staff are disproportionately affected**—they account for over **90% of killings and injuries**.
             - Interestingly, **international staff are slightly more likely to be kidnapped** compared to other forms of harm, but still remain a minority.
-            - This highlights the **unique vulnerabilities** faced by national staff who often lack the same security resources as their international peers.
+            - This highlights the **unique vulnerabilities** faced by national staff who often lack the same security resources as their international peers. This aligns with findings by Humanitarian Outcomes[^2], where national staff face significantly greater exposure in volatile settings.
             """
         )
 
@@ -851,7 +851,7 @@ elif section == "🧨 Perpetrator Analysis":
     st.markdown(
         """
         - The majority of attacks are carried out by **non-state armed groups**, with **national and unknown affiliations** dominating the list.  
-        - Notably, more than **2,000 incidents** are attributed to **"Unknown" actors**, raising concerns about the **difficulty of attribution** and potential **gaps in field reporting**.
+        - Notably, more than **2,000 incidents** are attributed to **"Unknown" actors**, raising concerns about the **difficulty of attribution** and potential **gaps in field reporting**. According to Geneva Call[^3], these groups often disregard humanitarian neutrality, posing a growing threat to frontline operations.
         - This uncertainty poses a challenge for humanitarian agencies when designing targeted mitigation strategies.
         """
     )
@@ -980,7 +980,7 @@ elif section == "📅 Time & Cross Analysis":
     st.markdown(
         """
         - Over the past two decades, **monthly and quarterly incidents have increased**, with notable spikes in recent years.
-        - The **post-2015 surge** may reflect both rising conflict intensity and improvements in data reporting.
+        - The **post-2015 surge** may reflect both rising conflict intensity and improvements in data reporting. A similar trend has been observed in independent reports[^4], pointing to both increased conflict intensity and improved incident reporting.
         - Understanding these temporal shifts helps stakeholders anticipate **surge periods** and **optimize deployment timing**.
         """
     )
@@ -1060,7 +1060,7 @@ elif section == "✅ Conclusion & Recommendations":
 
         - **📆 Monitor and forecast with time trends**: Use monthly and quarterly incident data to anticipate peak risk periods—especially in regions with seasonal surges or historical conflict anniversaries.
 
-        - **🕵️‍♂️ Improve documentation and attribution** of incidents. Strengthening data partnerships with local actors and investing in incident forensics can help reduce the number of attacks labeled as perpetrated by “unknown actors.”
+        - **🕵️‍♂️ Improve documentation and attribution** of incidents. Strengthening data partnerships with local actors and investing in incident forensics can help reduce the number of attacks labeled as perpetrated by “unknown actors.” This echoes recommendations by the ICRC[^5], who advocate for improved field-level safety systems and staff preparedness in volatile areas.
 
         - **🚨 Identify high-risk intersections**: Pay close attention to scenarios where deadly attack methods (like ambushes or IEDs) intersect with vulnerable staff types or regions. These hotspots should receive additional resources and rapid-response capability.
 
@@ -1071,5 +1071,14 @@ elif section == "✅ Conclusion & Recommendations":
         Each data point in this dashboard reflects a human life disrupted—or ended—while trying to make the world a more humane place. Data alone cannot stop bullets or threats. But it can inform action. It can drive smarter policy. It can strengthen systems. And most importantly, it can help ensure that aid workers return home safely.
 
         Our hope is that this analysis becomes more than numbers on a dashboard—it becomes a tool for advocacy, planning, and protection.
+
+
+        ### 📚 References
+
+        - [^1]Aid Worker Security Database (2024). *Global record of major attacks on humanitarian workers*. Retrieved from [https://aidworkersecurity.org](https://aidworkersecurity.org)
+        - [^2]Humanitarian Outcomes (2023). *Aid Worker Security Report 2023: Figures at a Glance*. Retrieved from [https://www.humanitarianoutcomes.org](https://www.humanitarianoutcomes.org)
+        - [^3]Stoddard, A., Harmer, A., & Czwarno, M. (2022). *Spotlight on Local Aid Workers: Rising Risks and Needs for Protection*. Humanitarian Outcomes. [https://www.humanitarianoutcomes.org](https://www.humanitarianoutcomes.org)
+        - [^4]Geneva Call (2021). *Protecting Humanitarian Action in Armed Conflict*. Retrieved from [https://genevacall.org](https://genevacall.org)
+        - [^5]ICRC (2020). *Security of Humanitarian Personnel: Principles and Best Practices*. [https://www.icrc.org](https://www.icrc.org)
         """
     )
